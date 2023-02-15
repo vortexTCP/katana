@@ -1,4 +1,4 @@
-module github.com/vortexTCP/katana
+module github.com/vortexTCP/katana/v2
 
 go 1.18
 
