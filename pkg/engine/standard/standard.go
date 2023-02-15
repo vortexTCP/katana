@@ -175,9 +175,7 @@ func (c *Crawler) makeParseResponseCallback(queue *queue.VarietyQueue) func(nr n
 		if err != nil {
 			return
 		}
-		if scopeValidated || c.options.Options.DisplayOutScope {
-			_ = c.options.OutputWriter.Write(result, nil)
-		}
+
 		if c.options.Options.OnResult != nil {
 			c.options.Options.OnResult(*result)
 		}
