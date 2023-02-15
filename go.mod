@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/katana
+module github.com/vortexTC/katana
 
 go 1.18
 
